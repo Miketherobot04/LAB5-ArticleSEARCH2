@@ -1,0 +1,3 @@
+// Add configuration options for all sub-projects/modules in the top-level build file, including plugins. { 'com.android.application' version '7.2.1' apply false 'com.android.library' version '7.2.1' apply false 'org.jetbrains.kotlin.android' version '1.7.10' apply false 'org.jetbrains.kotlin.plugin.serialization' version '1.7.10' apply false }
+
+Task clean(type: Delete): delete rootProject.buildDir.
